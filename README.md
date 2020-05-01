@@ -12,15 +12,18 @@ This test project contains following setup:
 1. Make sure you have maven installed
 2. Make sure you have java 1.8 installed
 3. Checkout the source code
-4. Run "mvn clean install"
+  "git clone {URL}"
+4. Build Project
+  cd jwt-oauth2-example
+  Run "mvn clean install" 
 
 ### Start the auth server
-
-1. Inside "auth-server" execute "mvn spring-boot:run"
+1. cd auth-server
+2. Run "mvn spring-boot:run"
 
 ### Start the resource server
-
-1. Inside "resource-server" execute "mvn spring-boot:run"
+1. cd resource-server
+1. Run "mvn spring-boot:run"
 
 ### Start the aggregation server
 
